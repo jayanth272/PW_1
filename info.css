@@ -64,6 +64,7 @@ header .logo
   height: 100vh;
   object-fit: cover;
   opacity: 0.8;
+  z index=10;
 }
 .overlay
 {
@@ -155,6 +156,7 @@ header .logo
   .showcase header
   {
     padding: 40px;
+    z index=10;
   }
   .text h2
   {
@@ -167,7 +169,8 @@ header .logo
 }
 
 .navbar{
-  background-color: black;
+  background-color: none;
+  z index=-1;
 }
 
 .shows{
@@ -276,4 +279,43 @@ p{
 
 .anime{
   background-color: black;
+}
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+  z index=-1;
+  background-color: black;
+  height: 80px;
+}
+nav img{
+  width: 150px;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+.nav-links ul li::after{
+  content:'';
+  width: 0%;
+  height: 2.2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+  width: 100%;
 }
