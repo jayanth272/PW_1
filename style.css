@@ -56,6 +56,7 @@ nav img{
   left: 50%;
   transform: translate(-50%,-50%);
   text-align: center;
+  overflow: hidden;
 }
 .text-box h1{
   font-size: 62px;
@@ -322,4 +323,8 @@ p{
   background-size: cover;
   text-align: center;
   color: white;
+}
+iframe{
+  overflow:scroll;
+  height: 700px;
 }
