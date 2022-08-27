@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ANI-GUIDO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="favicon.ico">
+</head>
+<body>
+<section class="sub-header1">
+<nav>
+  <a href="index.html"><img src="images1/check.jpg"></a>
+  <div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="index.html">LOGOUT</a></li>
+
+      </ul>
+  </div>
+  <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1>Your Dashboard</h1>
+</section>
+<!---Contact------->
+<section class="contact-us"><br><br><br>
+  <div class="row">
+      <div class="contact-col">
+        <div>
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            <span>
+              <h5>WATCHLIST</h5>
+              <p>Add anime to your watchlist.</p>
+            </span>
+        </div><br><br><br><br>
+        <div>
+            <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+            <span>
+              <h5>Completed</h5>
+              <p>Keep track of watched anime.</p>
+            </span>
+        </div>
+        <br><br><br>
+
+      <div>
+          <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+          <span>
+            <h5>Currently Watching</h5>
+            <p>One Piece EP 1.</p>
+          </span>
+      </div>
+      <br><br><br>
+    </div>
+</div>
+
+</section>
+
+
+
+
+<!---Footer------>
+<section class="sub-footer">
+  <h4>About Us</h4>
+  <p>Get more information on anime you wish to watch, episodes, seasons, release dates, characters and more.<br>
+     Create personalised watch lists track your anime etc.</p>
+     <div class="icons">,
+       <i class="fa fa-facebook-official" aria-hidden="true"></i>
+       <i class="fa fa-twitter" aria-hidden="true"></i>
+       <i class="fa fa-instagram" aria-hidden="true"></i>
+     </div>
+
+</section>
+
+
+<script>
+  var navLinks = document.getElementById("navLinks")
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+
+</body>
+</html>

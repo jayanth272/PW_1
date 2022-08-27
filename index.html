@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ANI-GUIDO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+<section class="header">
+<nav>
+  <a href="index.html"><img src="images1/check.jpg"></a>
+  <div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="login.html">LOGIN/SIGNUP</a></li>
+        <li><a href="info.html">TECH INFO</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+  </div>
+  <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<div class="text-box">
+  <h1>ANI-GUIDO</h1>
+  <h3></h3>
+  <p>Perfect guide for your favourite Anime.</p>
+  <a href="explore.html" class="hero-btn">Explore</a>
+</div>
+</section>
+<!---Shows Menu------>
+<section class="shows">
+<div class="SH">
+  <h1>Some Popular Anime to get you started with.</h1>
+  <p>Learn more about the Genre of the Anime you have heard about.</p>
+</div>
+<div class="Row">
+  <div class="Column">
+    <h3>Shonen</h3>
+    <p>Genre of Anime that is focused on a main character.
+      Mainly based on action,adventure,fighting.
+      Some examples are One Piece, Naruto, Attack on Titan,
+      Fullmetal Alchemist Brotherhood, DBZ etc.</p>
+  </div>
+  <div class="Column">
+    <h3>Sports</h3>
+    <p>Sports manga is a genre of Japanese manga and anime
+       that focuses on stories involving sports and other
+        athletic and competitive pursuits. Famous sports anime:
+        Haikyuu, Kuroko no Basket, Hajime no Ippo</p>
+  </div>
+  <div class="Column">
+    <h3>Slice of Life</h3>
+    <p>Slice of Life anime generally revolves around the daily
+       life of the main character and the people involved in
+       their Life. It is usually set in a school background.
+       Few notable SOL anime to mention: Your Lie in April, Silent Voice, Clannad.</p>
+  </div>
+</div>
+</section>
+<!---Contact US------>
+<section class="cu">
+  <h1>Any suggestions?<br />Mistakes that need to be corrected?</h1>
+  <a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+
+<!---Footer------>
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Get more information on anime you wish to watch, episodes, seasons, release dates, characters and more.<br>
+     Create personalised watch lists, track your anime etc.</p>
+     <div class="icons">
+       <i class="fa fa-facebook-official" aria-hidden="true"></i>
+       <i class="fa fa-twitter" aria-hidden="true"></i>
+       <i class="fa fa-instagram" aria-hidden="true"></i>
+     </div>
+
+</section>
+
+
+
+<script>
+  var navLinks = document.getElementById("navLinks")
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+
+</body>
+</html>

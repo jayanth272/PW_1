@@ -1,0 +1,301 @@
+html--------------->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ANI-GUIDO</title>
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/lightslider.css">
+    <script type="text/javascript" src="js/Jquery.js"></script>
+    <script type="text/javascript" src="js/lightslider.js"></script>
+  </head>
+  <body>
+    <section class="display">
+    <ul id="autoWidth" class="cs-hidden">
+      <li class="item-a">
+        <div class="slider">
+      <div class="slide-img">
+        <img src="images/bleach.jpg" alt="">
+        <div class="overlay">
+          <a class="visit-btn" href="#"><center>Add to Watchlist</center></a>
+
+        </div>
+      </div>
+      <div class="detail-slider">
+        <a href="bleach.html" class="anime">BLEACH</a>
+      </div>
+     </div>
+      </li>
+      <li class="item-b">
+        <div class="slider">
+      <div class="slide-img">
+        <img src="images/clover.png" alt="">
+        <div class="overlay">
+          <a class="visit-btn" href="#"><center>Add to Watchlist</center></a>
+
+        </div>
+      </div>
+      <div class="detail-slider">
+        <a href="blackclover.html" class="anime">BLACK CLOVER</a>
+      </div>
+     </div>
+      </li>
+      <li class="item-c">
+        <div class="slider">
+      <div class="slide-img">
+        <img src="images/codegeass.jpg" alt="">
+        <div class="overlay">
+          <a class="visit-btn" href="#"><center>Add to Watchlist</center></a>
+
+        </div>
+      </div>
+      <div class="detail-slider">
+        <a href="codegeass.html" class="anime">CODE GEASS</a>
+      </div>
+     </div>
+      </li>
+      <li class="item-d">
+        <div class="slider">
+      <div class="slide-img">
+        <img src="images/deathnote.jpg" alt="">
+        <div class="overlay">
+          <a class="visit-btn" href="#"><center>Add to Watchlist</center></a>
+
+        </div>
+      </div>
+      <div class="detail-slider">
+        <a href="deathnote.html" class="anime">DEATH NOTE</a>
+      </div>
+     </div>
+      </li>
+      <li class="item-e">
+        <div class="slider">
+      <div class="slide-img">
+        <img src="images/fullmetal.jpg" alt="">
+        <div class="overlay">
+          <a class="visit-btn" href="#"><center>Add to Watchlist</center></a>
+
+        </div>
+      </div>
+      <div class="detail-slider">
+        <a href="fullmetalalchemist.html" class="anime">FULLMETAL ALCHEMIST</a>
+      </div>
+     </div>
+      </li>
+      <li class="item-f">
+        <div class="slider">
+      <div class="slide-img">
+        <img src="images/haik.jpg" alt="">
+        <div class="overlay">
+          <a class="visit-btn" href="#"><center>Add to Watchlist</center></a>
+
+        </div>
+      </div>
+      <div class="detail-slider">
+        <a href="haikyuu.html" class="anime">HAIKYUU</a>
+      </div>
+     </div>
+      </li>
+      <li class="item-g">
+        <div class="slider">
+      <div class="slide-img">
+        <img src="images/hunter.jpg" alt="">
+        <div class="overlay">
+          <a class="visit-btn" href="#"><center>Add to Watchlist</center></a>
+
+        </div>
+      </div>
+      <div class="detail-slider">
+        <a href="hunter.html" class="anime">HUNTER X HUNTER</a>
+      </div>
+     </div>
+      </li>
+      <li class="item-h">
+        <div class="slider">
+      <div class="slide-img">
+        <img src="images/jujutsu.jpg" alt="">
+        <div class="overlay">
+          <a class="visit-btn" href="#"><center>Add to Watchlist</center></a>
+
+        </div>
+      </div>
+      <div class="detail-slider">
+        <a href="jjk.html" class="anime">JUJUTSU KAISEN</a>
+      </div>
+     </div>
+      </li>
+      <li class="item-i">
+        <div class="slider">
+      <div class="slide-img">
+        <img src="images/naru.jpg" alt="">
+        <div class="overlay">
+          <a class="visit-btn" href="#"><center>Add to Watchlist</center></a>
+
+        </div>
+      </div>
+      <div class="detail-slider">
+        <a href="naruto.html" class="anime">NARUTO</a>
+      </div>
+     </div>
+      </li>
+      <li class="item-j">
+        <div class="slider">
+      <div class="slide-img">
+        <img src="images/onepiece.jpg" alt="">
+        <div class="overlay">
+          <a class="visit-btn" href="#"><center>Add to Watchlist</center></a>
+
+        </div>
+      </div>
+      <div class="detail-slider">
+        <a href="onepiece.html" class="anime">ONE PIECE</a>
+      </div>
+     </div>
+      </li>
+      <li class="item-k">
+        <div class="slider">
+      <div class="slide-img">
+        <img src="images/titan.jpg" alt="">
+        <div class="overlay">
+          <a class="visit-btn" href="#"><center>Add to Watchlist</center></a>
+
+        </div>
+      </div>
+      <div class="detail-slider">
+        <a href="attackontitan.html" class="anime">ATTACK ON TITAN</a>
+      </div>
+     </div>
+      </li>
+
+    </ul>
+    </section>
+    <script type="text/javascript"src="js/script.js"></script>
+
+  </body>
+  <footer>
+
+  </footer>
+</html>
+css----------------->
+.slider{
+  width: 300px;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 25px;
+
+}
+
+.slide-img{
+  height: 250px;
+  position: relative;
+}
+
+.slide-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+
+}
+
+.detail-slider{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.type{
+  display: flex;
+  flex-direction: column;
+}
+
+.type a{
+  color: #222222;
+  margin: 5px 0px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding-right: 8px;
+}
+
+
+.anime{
+  color: #333333;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.overlay{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visit-btn{
+  width: 120px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: silver;
+  color: #252525;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+}
+
+.visit-btn:hover{
+color: #ffffff;
+background-color: black;
+transition: all ease 0.3s;
+}
+
+.overlay{
+  visibility: hidden;
+}
+
+.slide-img:hover .overlay{
+  visibility: visible;
+  animation: fade 0.5s;
+}
+
+@keyframes fade {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+
+}
+
+.display{
+  position: relative; bottom: 10px;
+  width: 100%;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+
+}
+

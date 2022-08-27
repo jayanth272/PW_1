@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ANI-GUIDO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+<section class="sub-header">
+<nav>
+  <a href="index.html"><img src="images1/check.jpg"></a>
+  <div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="login.html">LOGIN/SIGNUP</a></li>
+        <li><a href="info.html">TECH INFO</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+  </div>
+  <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1>About Us</h1><br><br><br>
+<a href="info.html" class="hero-btn">Learn More</a>
+</section>
+
+<!---Footer------>
+<section class="sub-footer">
+
+  <h4>The Wikipedia for your Anime research and guidance.</h4>
+  <p>Get more information on anime you wish to watch, episodes, seasons, release dates, characters and more.<br>
+     Create personalised watch lists, track your anime etc.</p><br>
+</section>
+<section class="creators">
+    <div class="SH">
+       <h2>Creators</h2>
+       <p>Know more about the creators of this website.</p>
+    </div>
+    <div class="Row">
+      <div class="creator-col">
+        <img src="images1/mis.jpeg">
+        <div class="layer">
+          <h4>Misbah</h4>
+        </div>
+      </div>
+      <div class="creator-col">
+        <img src="images1/jay.jpeg">
+        <div class="layer">
+          <h4>Jayanth</h4>
+        </div>
+      </div>
+    </div>
+    <div class="SH">
+       <p>Misbah and Jayanth are CSE students of BMS College of Engineering currently studying in 2nd year.
+         Both of them do watch anime and are passionate about it, they have created this site with a vision to bring anime into other's
+         lives too and create an impact in their lives just like it did for them greatly. We want to share awareness about this amazing art
+          form to the rest who are not aware of it or neglect it for many reasons. This site will guide you from "what is anime"
+          through "where to start from", and we assure you after you are give it a shot, you will surely fall in love with it.</p>
+    </div>
+
+</section>
+<section class="sub-footer">
+     <div class="icons">
+       <i class="fa fa-facebook-official" aria-hidden="true"></i>
+       <i class="fa fa-twitter" aria-hidden="true"></i>
+       <i class="fa fa-instagram" aria-hidden="true"></i>
+     </div>
+     <p>Made by Misbah Riyaz and Jayanth.</p>
+</section>
+
+
+
+<script>
+  var navLinks = document.getElementById("navLinks")
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+
+</body>
+</html>
